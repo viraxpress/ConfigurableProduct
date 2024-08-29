@@ -1,0 +1,22 @@
+{
+    "name": "viraxpress/configurable-product",
+    "description": "Energize your E-commerce with ViraXpress's blazing fast Magento New Front End + Elegant Theme + >95% SEO score + Open Source",
+    "type": "magento2-module",
+    "license": "Apache License 2.0",
+    "authors": [
+        {
+            "name": "VX Frontend",
+            "email": "vira@viraxpress.com"
+        }
+    ],
+    "version": "1.0.0-alpha",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "~8.1.0||~8.2.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
