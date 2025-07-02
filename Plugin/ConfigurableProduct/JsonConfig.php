@@ -105,8 +105,8 @@ class JsonConfig
         PriceCurrencyInterface $priceCurrency,
         Image $imageHelper,
         ScopeConfigInterface $scopeConfig,
-        Format $localeFormat = null,
-        Prices $variationPrices = null
+        Format $localeFormat,
+        Prices $variationPrices
     ) {
         $this->helper = $helper;
         $this->jsonEncoder = $jsonEncoder;
